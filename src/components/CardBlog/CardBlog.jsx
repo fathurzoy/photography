@@ -13,12 +13,9 @@ const CardBlog = ({ img, title, desc }) => {
           {title}
         </p>
         <p className="mt-2 font-normal text-sm">{desc}</p>
-        <a
-          href="#"
-          className="font-bold text-blue-700 hover:text-blue-800 hover:underline mt-2 cursor-pointer"
-        >
+        <span className="font-bold text-blue-700 hover:text-blue-800 hover:underline mt-2 cursor-pointer">
           Read More
-        </a>
+        </span>
       </div>
     </div>
   );
