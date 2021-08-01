@@ -1,10 +1,19 @@
 import Footer from "components/Footer/Footer";
 import Navbar from "components/Navbar/Navbar";
 import React from "react";
+import BackToTop from "react-back-to-top-button";
 
 const Prewedding = () => {
   return (
-    <div>
+    <>
+      <BackToTop
+        showOnScrollUp
+        showAt={100}
+        speed={1500}
+        easing="easeInOutQuint"
+      >
+        <i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>
+      </BackToTop>
       <Navbar />
       <div className="prewedding container mx-auto mb-10 mt-16">
         <div className="header flex flex-col justify-center">
@@ -89,7 +98,7 @@ const Prewedding = () => {
         </div>
       </div>
       <Footer />
-    </div>
+    </>
   );
 };
 

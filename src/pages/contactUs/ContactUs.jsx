@@ -1,10 +1,19 @@
 import Footer from "components/Footer/Footer";
 import Navbar from "components/Navbar/Navbar";
 import React from "react";
+import BackToTop from "react-back-to-top-button";
 
 const ContactUs = () => {
   return (
-    <div>
+    <>
+      <BackToTop
+        showOnScrollUp
+        showAt={100}
+        speed={1500}
+        easing="easeInOutQuint"
+      >
+        <i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>
+      </BackToTop>
       <Navbar />
       <div className="contactus container mx-auto justify-center min-h-screen px-2 md:px-32 mt-10 mb-10">
         <div className="header flex flex-col gap-5">
@@ -19,7 +28,7 @@ const ContactUs = () => {
         </div>
       </div>
       <Footer />
-    </div>
+    </>
   );
 };
 

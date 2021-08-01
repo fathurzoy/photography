@@ -2,10 +2,19 @@ import CardVideo from "components/CardVideo/CardVideo";
 import Footer from "components/Footer/Footer";
 import Navbar from "components/Navbar/Navbar";
 import React from "react";
+import BackToTop from "react-back-to-top-button";
 
 const Videos = () => {
   return (
-    <div>
+    <>
+      <BackToTop
+        showOnScrollUp
+        showAt={100}
+        speed={1500}
+        easing="easeInOutQuint"
+      >
+        <i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>
+      </BackToTop>
       <Navbar />
       <div className="content flex flex-wrap container justify-center min-h-screen px-32 mt-10 mb-10">
         <CardVideo
@@ -55,7 +64,7 @@ const Videos = () => {
         />
       </div>
       <Footer />
-    </div>
+    </>
   );
 };
 

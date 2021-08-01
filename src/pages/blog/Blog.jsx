@@ -2,10 +2,19 @@ import CardBlog from "components/CardBlog/CardBlog";
 import Footer from "components/Footer/Footer";
 import Navbar from "components/Navbar/Navbar";
 import React from "react";
+import BackToTop from "react-back-to-top-button";
 
 const Blog = () => {
   return (
-    <div>
+    <>
+      <BackToTop
+        showOnScrollUp
+        showAt={100}
+        speed={1500}
+        easing="easeInOutQuint"
+      >
+        <i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>
+      </BackToTop>
       <Navbar />
       <div className="pricelist container mx-auto mb-10 mt-10 min-h-screen flex flex-wrap">
         <div className="card w-full mb-4 sm:w-1/3 md:w-1/4">
@@ -94,7 +103,7 @@ const Blog = () => {
         </div>
       </div>
       <Footer />
-    </div>
+    </>
   );
 };
 
