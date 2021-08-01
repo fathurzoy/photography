@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.toggle {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  z-index: 9999;
+}
+.toggle:focus {
+  outline: none;
+}
+.toggle:before,
+.toggle:after {
+  @apply .right-0 .absolute .bg-black .transition-all .duration-200;
+  content: "";
+  height: 3px;
+  transform-origin: center;
+}
+.toggle:before {
+  top: 26%;
+  width: 20px;
+}
+.toggle:after {
+  top: 58%;
+  width: 12px;
+}
+
+.toggle.active:before,
+.toggle.active:after {
+  width: 20px;
+  top: 50%;
+}
+
+.toggle.active:before {
+  transform: translateY(-50%) rotate(-45deg);
+}
+.toggle.active:after {
+  transform: translateY(-50%) rotate(45deg);
+}
