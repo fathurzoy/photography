@@ -16,16 +16,16 @@ const Hero = () => {
             interval="7000"
           >
             <div className="carouselContainers">
-              <img src="assets/images/1.jpg" alt="" />
+              <img loading="lazy" src="assets/images/1.jpg" alt="" />
             </div>
             <div className="carouselContainers">
-              <img src="assets/images/2.jpg" alt="" />
+              <img loading="lazy" src="assets/images/2.jpg" alt="" />
             </div>
             <div className="carouselContainers">
-              <img src="assets/images/3.jpg" alt="" />
+              <img loading="lazy" src="assets/images/3.jpg" alt="" />
             </div>
             <div className="carouselContainers">
-              <img src="assets/images/4.jpg" alt="" />
+              <img loading="lazy" src="assets/images/4.jpg" alt="" />
             </div>
           </Carousel>
         </div>
