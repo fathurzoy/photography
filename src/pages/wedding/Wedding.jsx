@@ -21,66 +21,126 @@ const Wedding = () => {
         <div className="content mt-8">
           <div className="top flex justify-center mt-10">
             <div className="w-1/2 p-1">
-              <img src="assets/images/weddinggallery1.jpg" alt="" />
+              <img
+                loading="lazy"
+                src="assets/images/weddinggallery1.jpg"
+                alt=""
+              />
             </div>
             <div className="w-1/2 p-1">
-              <img src="assets/images/weddinggallery2.jpg" alt="" />
+              <img
+                loading="lazy"
+                src="assets/images/weddinggallery2.jpg"
+                alt=""
+              />
             </div>
           </div>
           <div className="top flex flex-wrap justify-center">
             <div className="w-1/2 p-1">
-              <img src="assets/images/weddinggallery3.jpg" alt="" />
+              <img
+                loading="lazy"
+                src="assets/images/weddinggallery3.jpg"
+                alt=""
+              />
             </div>
             <div className="w-1/2 flex">
               <div className="w-1/2 p-1">
-                <img src="assets/images/weddinggallery4.jpg" alt="" />
+                <img
+                  loading="lazy"
+                  src="assets/images/weddinggallery4.jpg"
+                  alt=""
+                />
               </div>
               <div className="w-1/2 p-1">
-                <img src="assets/images/weddinggallery5.jpg" alt="" />
+                <img
+                  loading="lazy"
+                  src="assets/images/weddinggallery5.jpg"
+                  alt=""
+                />
               </div>
             </div>
           </div>
           <div className="top flex flex-wrap justify-center">
             <div className="w-1/2 flex">
               <div className="w-1/2 p-1">
-                <img src="assets/images/weddinggallery6.jpg" alt="" />
+                <img
+                  loading="lazy"
+                  src="assets/images/weddinggallery6.jpg"
+                  alt=""
+                />
               </div>
               <div className="w-1/2 p-1">
-                <img src="assets/images/weddinggallery7.jpg" alt="" />
+                <img
+                  loading="lazy"
+                  src="assets/images/weddinggallery7.jpg"
+                  alt=""
+                />
               </div>
             </div>
             <div className="w-1/2 p-1">
-              <img src="assets/images/weddinggallery8.jpg" alt="" />
+              <img
+                loading="lazy"
+                src="assets/images/weddinggallery8.jpg"
+                alt=""
+              />
             </div>
           </div>
           <div className="top flex flex-wrap justify-center">
             <div className="w-1/2 ">
               <div className="flex flex-col p-1">
-                <img src="assets/images/weddinggallery9.jpg" alt="" />
+                <img
+                  loading="lazy"
+                  src="assets/images/weddinggallery9.jpg"
+                  alt=""
+                />
               </div>
               <div className="flex">
                 <div className="w-1/2 p-1">
-                  <img src="assets/images/weddinggallery10.jpg" alt="" />
+                  <img
+                    loading="lazy"
+                    src="assets/images/weddinggallery10.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="w-1/2 p-1">
-                  <img src="assets/images/weddinggallery11.jpg" alt="" />
+                  <img
+                    loading="lazy"
+                    src="assets/images/weddinggallery11.jpg"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
             <div className="w-1/2 p-1">
-              <img src="assets/images/weddinggallery12.jpg" alt="" />
+              <img
+                loading="lazy"
+                src="assets/images/weddinggallery12.jpg"
+                alt=""
+              />
             </div>
           </div>
           <div className="top flex flex-wrap justify-center">
             <div className="w-1/2 p-1">
-              <img src="assets/images/weddinggallery13.jpg" alt="" />
+              <img
+                loading="lazy"
+                src="assets/images/weddinggallery13.jpg"
+                alt=""
+              />
             </div>
             <div className="w-1/2 flex">
               <div className="w-1/2 p-1">
-                <img src="assets/images/weddinggallery14.jpg" alt="" />
+                <img
+                  loading="lazy"
+                  src="assets/images/weddinggallery14.jpg"
+                  alt=""
+                />
               </div>
               <div className="w-1/2 p-1">
-                <img src="assets/images/weddinggallery15.jpg" alt="" />
+                <img
+                  loading="lazy"
+                  src="assets/images/weddinggallery15.jpg"
+                  alt=""
+                />
               </div>
             </div>
           </div>

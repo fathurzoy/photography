@@ -24,21 +24,66 @@ const Prewedding = () => {
         <div className="content mt-8">
           <div className="flex flex-wrap">
             <div className="flex flex-col w-1/2 md:w-1/4">
-              <img src="assets/images/prewedding1.jpg" alt="" className="p-2" />
-              <img src="assets/images/prewedding2.jpg" alt="" className="p-2" />
+              <img
+                loading="lazy"
+                src="assets/images/prewedding1.jpg"
+                alt=""
+                className="p-2"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/prewedding2.jpg"
+                alt=""
+                className="p-2"
+              />
             </div>
             <div className="flex flex-col w-1/2 md:w-1/4">
-              <img src="assets/images/prewedding3.jpg" alt="" className="p-2" />
-              <img src="assets/images/prewedding4.jpg" alt="" className="p-2" />
+              <img
+                loading="lazy"
+                src="assets/images/prewedding3.jpg"
+                alt=""
+                className="p-2"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/prewedding4.jpg"
+                alt=""
+                className="p-2"
+              />
             </div>
             <div className="flex flex-col w-1/2 md:w-1/4">
-              <img src="assets/images/prewedding5.jpg" alt="" className="p-2" />
-              <img src="assets/images/prewedding6.jpg" alt="" className="p-2" />
+              <img
+                loading="lazy"
+                src="assets/images/prewedding5.jpg"
+                alt=""
+                className="p-2"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/prewedding6.jpg"
+                alt=""
+                className="p-2"
+              />
             </div>
             <div className="flex flex-col w-1/2 md:w-1/4">
-              <img src="assets/images/prewedding7.jpg" alt="" className="p-2" />
-              <img src="assets/images/prewedding8.jpg" alt="" className="p-2" />
-              <img src="assets/images/prewedding9.jpg" alt="" className="p-2" />
+              <img
+                loading="lazy"
+                src="assets/images/prewedding7.jpg"
+                alt=""
+                className="p-2"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/prewedding8.jpg"
+                alt=""
+                className="p-2"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/prewedding9.jpg"
+                alt=""
+                className="p-2"
+              />
             </div>
           </div>
         </div>
