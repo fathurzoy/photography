@@ -1,16 +1,14 @@
-import "./App.css";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Navbar from "./components/Navbar/Navbar";
-import "assets/css/style.css";
-import Footer from "components/Footer/Footer";
-import Home from "pages/home/Home";
 import "antd/dist/antd.css";
-import Wedding from "pages/wedding/Wedding";
-import Prewedding from "pages/prewedding/Prewedding";
-import Videos from "pages/videos/Videos";
-import ContactUs from "pages/contactUs/ContactUs";
-import Pricelist from "pages/pricelist/Pricelist";
+import "assets/css/style.css";
 import Blog from "pages/blog/Blog";
+import ContactUs from "pages/contactUs/ContactUs";
+import Home from "pages/home/Home";
+import Prewedding from "pages/prewedding/Prewedding";
+import Pricelist from "pages/pricelist/Pricelist";
+import Videos from "pages/videos/Videos";
+import Wedding from "pages/wedding/Wedding";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import "./App.css";
 
 function App() {
   return (
