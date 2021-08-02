@@ -1,23 +1,19 @@
 import "antd/dist/antd.css";
 import "assets/css/style.css";
-import { createBrowserHistory } from "history";
 import Blog from "pages/blog/Blog";
 import ContactUs from "pages/contactUs/ContactUs";
 import Home from "pages/home/Home";
-import NotFound from "pages/notFound/404";
 import Prewedding from "pages/prewedding/Prewedding";
 import Pricelist from "pages/pricelist/Pricelist";
 import Videos from "pages/videos/Videos";
 import Wedding from "pages/wedding/Wedding";
-import { Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
 
 function App() {
-  const history = createBrowserHistory({ basename: process.env.PUBLIC_URL });
-
   return (
     <div className="App">
-      <Router history={history}>
+      <BrowserRouter>
         <Switch>
           <Route path="/contact-us">
             <>
@@ -54,9 +50,8 @@ function App() {
               <Home />
             </>
           </Route>
-          <Route path="*" component={NotFound}></Route>
         </Switch>
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }
