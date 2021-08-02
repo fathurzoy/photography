@@ -3,6 +3,7 @@ import "assets/css/style.css";
 import Blog from "pages/blog/Blog";
 import ContactUs from "pages/contactUs/ContactUs";
 import Home from "pages/home/Home";
+import NotFound from "pages/notFound/404";
 import Prewedding from "pages/prewedding/Prewedding";
 import Pricelist from "pages/pricelist/Pricelist";
 import Videos from "pages/videos/Videos";
@@ -50,6 +51,7 @@ function App() {
               <Home />
             </>
           </Route>
+          <Route path="*" component={NotFound}></Route>
         </Switch>
       </BrowserRouter>
     </div>
