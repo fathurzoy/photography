@@ -1,4 +1,3 @@
-import "antd/dist/antd.css";
 import "assets/css/style.css";
 import Blog from "pages/blog/Blog";
 import ContactUs from "pages/contactUs/ContactUs";

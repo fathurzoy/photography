@@ -51,3 +51,14 @@ a {
 ul {
   list-style-type: none;
 }
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: inline-block !important;
+}

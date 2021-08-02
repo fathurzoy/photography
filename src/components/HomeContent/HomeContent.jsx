@@ -1,3 +1,4 @@
+import { Image } from "antd";
 import React from "react";
 
 const HomeContent = () => {
@@ -6,69 +7,61 @@ const HomeContent = () => {
       <div className="galleryHome px-2 md:px-8 mt-8 flex flex-col">
         <div className="top flex flex-wrap justify-center">
           <div className="w-full md:w-1/4 p-2">
-            <img loading="lazy" src="assets/images/galleryhome1.jpg" alt="" />
+            <Image loading="lazy" src="assets/images/galleryhome1.jpg" />
           </div>
           <div className="w-full md:w-1/4 p-2">
-            <img loading="lazy" src="assets/images/galleryhome2.jpg" alt="" />
+            <Image loading="lazy" src="assets/images/galleryhome2.jpg" />
           </div>
         </div>
         <div className="top2 flex flex-wrap">
           <div className="w-full md:w-1/4 flex p-2">
-            <img loading="lazy" src="assets/images/galleryhome3.jpg" alt="" />
+            <Image loading="lazy" src="assets/images/galleryhome3.jpg" />
           </div>
           <div className="w-full md:w-1/4 flex p-2">
-            <img loading="lazy" src="assets/images/galleryhome4.jpg" alt="" />
+            <Image loading="lazy" src="assets/images/galleryhome4.jpg" />
           </div>
           <div className="w-full md:w-1/4 flex p-2">
-            <img loading="lazy" src="assets/images/galleryhome5.jpg" alt="" />
+            <Image loading="lazy" src="assets/images/galleryhome5.jpg" />
           </div>
           <div className="w-full md:w-1/4 flex p-2">
-            <img loading="lazy" src="assets/images/galleryhome6.jpg" alt="" />
+            <Image loading="lazy" src="assets/images/galleryhome6.jpg" />
           </div>
         </div>
         <div className="middle flex flex-wrap w-full">
           <div className="left flex  flex-col w-full md:w-1/4">
             <div className="p-2">
-              <img loading="lazy" src="assets/images/galleryhome7.jpg" alt="" />
+              <Image loading="lazy" src="assets/images/galleryhome7.jpg" />
             </div>
             <div className="p-2">
-              <img loading="lazy" src="assets/images/galleryhome8.jpg" alt="" />
+              <Image loading="lazy" src="assets/images/galleryhome8.jpg" />
             </div>
           </div>
           <div className="middle w-full md:w-1/2">
             <div className=" p-2">
-              <img loading="lazy" src="assets/images/galleryhome9.jpg" alt="" />
+              <Image loading="lazy" src="assets/images/galleryhome9.jpg" />
             </div>
           </div>
           <div className="left flex flex-col w-full md:w-1/4">
             <div className="p-2">
-              <img
-                loading="lazy"
-                src="assets/images/galleryhome10.jpg"
-                alt=""
-              />
+              <Image loading="lazy" src="assets/images/galleryhome10.jpg" />
             </div>
             <div className="p-2">
-              <img
-                loading="lazy"
-                src="assets/images/galleryhome11.jpg"
-                alt=""
-              />
+              <Image loading="lazy" src="assets/images/galleryhome11.jpg" />
             </div>
           </div>
         </div>
         <div className="top2 flex flex-wrap">
           <div className="w-full md:w-1/4 flex p-2">
-            <img loading="lazy" src="assets/images/galleryhome12.jpg" alt="" />
+            <Image loading="lazy" src="assets/images/galleryhome12.jpg" />
           </div>
           <div className="w-full md:w-1/4 flex p-2">
-            <img loading="lazy" src="assets/images/galleryhome13.jpg" alt="" />
+            <Image loading="lazy" src="assets/images/galleryhome13.jpg" />
           </div>
           <div className="w-full md:w-1/4 flex p-2">
-            <img loading="lazy" src="assets/images/galleryhome14.jpg" alt="" />
+            <Image loading="lazy" src="assets/images/galleryhome14.jpg" />
           </div>
           <div className="w-full md:w-1/4 flex p-2">
-            <img loading="lazy" src="assets/images/galleryhome15.jpg" alt="" />
+            <Image loading="lazy" src="assets/images/galleryhome15.jpg" />
           </div>
         </div>
       </div>

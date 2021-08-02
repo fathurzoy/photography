@@ -13,7 +13,7 @@ const Hero = () => {
             showStatus={false}
             showArrows={false}
             infiniteLoop
-            interval="7000"
+            interval="3000"
           >
             <div className="carouselContainers">
               <img loading="lazy" src="assets/images/1.jpg" alt="" />
