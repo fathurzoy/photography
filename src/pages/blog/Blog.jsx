@@ -16,7 +16,7 @@ const Blog = () => {
         <i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>
       </BackToTop>
       <Navbar />
-      <div className="pricelist container mx-auto mb-10 mt-10 min-h-screen flex flex-wrap">
+      <div className=" container pricelist container mx-auto mb-10 mt-10 min-h-screen flex flex-wrap">
         <div className="card w-full mb-4 sm:w-1/3 md:w-1/4">
           <CardBlog
             img="assets/images/blog1.jpg"

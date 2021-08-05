@@ -1,6 +1,7 @@
 import "assets/css/style.css";
 import Blog from "pages/blog/Blog";
 import ContactUs from "pages/contactUs/ContactUs";
+import Detail from "pages/detail/Detail";
 import Home from "pages/home/Home";
 import NotFound from "pages/notFound/404";
 import Prewedding from "pages/prewedding/Prewedding";
@@ -23,6 +24,11 @@ function App() {
           <Route path="/pricelist">
             <>
               <Pricelist />
+            </>
+          </Route>
+          <Route path="/detail">
+            <>
+              <Detail />
             </>
           </Route>
           <Route path="/blog">

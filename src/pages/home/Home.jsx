@@ -19,7 +19,7 @@ const Home = () => {
       <div className="flex flex-col">
         <Navbar />
         <Hero />
-        <div className="content py-12 mx-auto">
+        <div className="container content py-12 mx-auto">
           <HomeContent />
         </div>
         <Footer />

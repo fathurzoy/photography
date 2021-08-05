@@ -16,7 +16,7 @@ const Videos = () => {
         <i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>
       </BackToTop>
       <Navbar />
-      <div className="content flex flex-wrap container justify-center min-h-screen px-32 mt-10 mb-10">
+      <div className="content w-3/4 mx-auto flex flex-wrap container justify-center min-h-screen mt-10 mb-10">
         <CardVideo
           img="assets/images/video1.jpg"
           title="Ellyana & Wahyu | NTT Prewedding"

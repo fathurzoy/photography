@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function NotFound() {
   return (
-    <section className="h-screen flex flex-col items-center">
+    <section className="container mx-auto h-screen flex flex-col items-center">
       <img
         src={`${process.env.PUBLIC_URL}/assets/images/illustration-notfound.jpg`}
         alt="Ooops we lost you"
