@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CardBlog = ({ img, title, desc }) => {
   return (
@@ -13,9 +14,12 @@ const CardBlog = ({ img, title, desc }) => {
           {title}
         </p>
         <p className="mt-2 font-normal text-sm">{desc}</p>
-        <span className="font-bold text-blue-700 hover:text-blue-800 hover:underline mt-2 cursor-pointer">
+        <Link
+          to="/detail"
+          className="font-bold text-blue-700 hover:text-blue-800 hover:underline mt-2 cursor-pointer"
+        >
           Read More
-        </span>
+        </Link>
       </div>
     </div>
   );

@@ -118,8 +118,11 @@ const Detail = () => {
               ini!
             </p>
             <Image src="assets/images/detail3.jpg" className="w-full" />
+            <div className="h-4"></div>
             <Image src="assets/images/detail4.jpg" className="w-full" />
+            <div className="h-4"></div>
             <Image src="assets/images/detail5.jpg" className="w-full" />
+            <div className="h-4"></div>
             <Image src="assets/images/detail6.jpg" className="w-full" />
           </div>
           <div className="tags">
