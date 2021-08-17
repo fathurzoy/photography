@@ -1,4 +1,5 @@
 import "assets/css/style.css";
+import Whatsapp from "components/Whatsapp/Whatsapp";
 import Blog from "pages/blog/Blog";
 import ContactUs from "pages/contactUs/ContactUs";
 import Detail from "pages/detail/Detail";
@@ -19,6 +20,7 @@ function App() {
           <Route path="/contact-us">
             <>
               <ContactUs />
+              <Whatsapp />
             </>
           </Route>
           <Route path="/pricelist">

@@ -1,4 +1,4 @@
-import { Input, Image } from "antd";
+import { Input, Image, BackTop } from "antd";
 import Footer from "components/Footer/Footer";
 import Navbar from "components/Navbar/Navbar";
 import React from "react";
@@ -10,6 +10,7 @@ const Detail = () => {
 
   return (
     <div>
+      <BackTop />
       <Navbar />
       <div className="container mx-auto flex flex-col lg:flex-row gap-12 py-8 px-4 md:px-20 text-left ">
         <div className="w-full lg:w-3/5 ">

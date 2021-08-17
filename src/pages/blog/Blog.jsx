@@ -1,20 +1,34 @@
+import { BackTop, Image } from "antd";
 import CardBlog from "components/CardBlog/CardBlog";
 import Footer from "components/Footer/Footer";
 import Navbar from "components/Navbar/Navbar";
 import React from "react";
 import BackToTop from "react-back-to-top-button";
 
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/swiper.min.css";
+import "swiper/components/pagination/pagination.min.css";
+
+// import Swiper core and required modules
+import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper/core";
+
 const Blog = () => {
+  // install Swiper modules
+  SwiperCore.use([Autoplay, Pagination, Navigation]);
   return (
     <>
-      <BackToTop
+      {/* <BackToTop
         showOnScrollUp
         showAt={100}
         speed={1500}
         easing="easeInOutQuint"
       >
         <i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>
-      </BackToTop>
+      </BackToTop> */}
+      <BackTop />
       <Navbar />
       <div className=" container pricelist container mx-auto mb-10 mt-10 min-h-screen flex flex-wrap">
         <div className="card w-full mb-4 sm:w-1/3 md:w-1/4">
@@ -101,6 +115,92 @@ const Blog = () => {
             desc="Beauty Robe by Robe.bit Sebelum pesta pernikahan dimulai, biasanya pengantin wanita dan pengantin laki-laki melakukan…"
           />
         </div>
+        <Swiper
+          slidesPerView={6}
+          spaceBetween={20}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          navigation={true}
+          pagination={{
+            clickable: true,
+          }}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <Image
+              loading="lazy"
+              src="assets/images/prewedding1.jpg"
+              alt=""
+              className="p-2"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              loading="lazy"
+              src="assets/images/prewedding1.jpg"
+              alt=""
+              className="p-2"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              loading="lazy"
+              src="assets/images/prewedding1.jpg"
+              alt=""
+              className="p-2"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              loading="lazy"
+              src="assets/images/prewedding1.jpg"
+              alt=""
+              className="p-2"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              loading="lazy"
+              src="assets/images/prewedding1.jpg"
+              alt=""
+              className="p-2"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              loading="lazy"
+              src="assets/images/prewedding1.jpg"
+              alt=""
+              className="p-2"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              loading="lazy"
+              src="assets/images/prewedding1.jpg"
+              alt=""
+              className="p-2"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              loading="lazy"
+              src="assets/images/prewedding1.jpg"
+              alt=""
+              className="p-2"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              loading="lazy"
+              src="assets/images/prewedding1.jpg"
+              alt=""
+              className="p-2"
+            />
+          </SwiperSlide>
+        </Swiper>
       </div>
       <Footer />
     </>
